@@ -17,21 +17,19 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &num);
     (num % 2 == 0) ? printf("%d is even.\n", num) : printf("%d is odd.\n", num);
-*/
-
-    #include <stdio.h>
-
-int main() {
-    int age;
-
-    // Input age
-    printf("Enter your age: ");
-    scanf("%d", &age);
-
-    // Using Ternary Operator to check eligibility
-    (age >= 18) ? printf("You are eligible to vote.\n") : printf("You are not eligible to vote.\n");
-
-    return 0;
 }
 
 
+  */
+
+
+#include<stdio.h>
+int main(){
+    int num,i,flag=o;
+    printf("\n enter num");
+    scanf("%d",&num");
+        for(i=2;i<=num/2;i++){
+        if(num% i==0){
+        flag=1;
+        }
+}
